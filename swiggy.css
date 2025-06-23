@@ -1,0 +1,310 @@
+
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+.header{  
+    border: 1px solid rgb(255, 255, 255);
+    padding-bottom: 25px;  
+    margin: -8px -10px 0px -5px;
+    box-shadow: 1px 1px 20px 5px  rgba(188, 184, 184, 0.973); 
+} 
+.header > img{ 
+    border-radius: 5px;
+    margin: 1.2% 0% -0.6% 14%;
+    transition: all 1s -.2s ;
+}
+.header > img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.header-one  , .header-two{
+    display: inline;  
+} 
+.header-one  > select{    
+    border: transparent;
+    text-decoration: underline;
+    width: 88px;
+     
+    padding: 6px;  
+    font-size: 17px;
+}
+.header-one > select:hover{
+    cursor: pointer;
+    color: orangered;
+}
+.header-two{
+    float: right; 
+    margin-right: 98px;
+    margin-top: 28px;   
+}
+.header-two > span{
+     padding: 30px;
+     font-size: 15px; 
+     font-weight: bold;
+}
+.header-two > span:hover{
+    cursor: pointer;
+    color: orangered;
+}
+.gap{
+    height: 33px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left:14%;
+    padding-bottom: 19px;
+}
+.box1{
+    height: 200px;
+    
+    margin-left:14%;
+    margin-right:14%; 
+    border-bottom: 1px solid rgb(222, 220, 220);
+    display: flex;
+    justify-content: center;
+}
+.box1 > span {
+    padding-left:12px; 
+    color: rgb(83, 81, 81);
+    text-align: center; 
+    font-size: 19px;
+    text-shadow: 1px 1px 1.2px   rgb(207, 202, 202) ;
+}
+.box1 > span> img{
+    width: 153px;
+    height: 113px; 
+}
+.box1 > span> img:hover{
+    cursor: pointer;
+}
+.box2{
+    height: 350px;
+    margin-left:10%;
+    margin-right:8%; 
+    border-bottom: 1px solid rgb(222, 220, 220);
+    display: flex;
+    justify-content: center;
+} 
+.box2 > span{
+    margin: -3px;
+    transition: all 0.3s linear 0s;
+}
+.box2 > span:hover{ 
+    transform: scale(0.9);
+}
+.box2 > span > pre>img{ 
+    width: 260px;
+    height: 181px;
+    border-radius: 19px;
+}
+.box2 span > pre > i {
+    color: rgb(9, 141, 9); 
+    font-size: 15px;
+}
+.box2 span > pre{
+    font-size: 15px; 
+    color: rgb(109, 107, 107);
+}
+
+h2{ 
+    font-size: 20px;
+    margin-left: 13%; 
+    margin-bottom: -1%;
+}
+.options{
+    height: 70px; 
+    margin-left: -7.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#op1{
+    margin: 7px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid rgb(222, 220, 220);
+    border-radius: 30px;
+    box-shadow: 1px 1px 2px 1px;
+    color: rgb(99, 98, 98); 
+}
+#op1 > select {
+    border: transparent; 
+    color: rgb(99, 98, 98); 
+    font-weight: bold;
+    width: 79px;
+}
+#op1:hover, #op1 > select:hover{
+    cursor: pointer; 
+    position: sticky;
+} 
+
+.box2 span > pre > strong{
+    font-size: 17px;
+    color: black;
+}
+.box2 > span>pre> img:hover{
+    cursor: pointer;
+}
+.box3{
+    height: 1000px; 
+    
+    border-bottom: 1px solid rgb(222, 220, 220);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.box3 > span{
+    margin: -3px;
+    transition: all 0.3s linear 0s;
+}
+.box3 > span:hover{ 
+    transform: scale(0.9);
+}
+.box3 > span > pre>img{ 
+    width: 260px;
+    height: 181px;
+    border-radius: 19px;
+}
+.box3 span > pre > i {
+    color: rgb(9, 141, 9); 
+    font-size: 15px;
+}
+.box3 span > pre{
+    font-size: 15px; 
+    color: rgb(109, 107, 107);
+}
+
+h2{ 
+    font-size: 20px;
+    margin-left: 13%;
+    margin-bottom: -1%;
+}
+.box3 span > pre > strong{
+    font-size: 17px;
+    color: black;
+}
+.box3 > span>pre> img:hover{
+    cursor: pointer;
+}
+.box4{
+    height: 270px; 
+    margin: 1% 8% 2% 7.5%;
+   
+    border-bottom: 1px solid rgb(222, 220, 220);
+}
+.box4 > .inner{
+    margin: 0% 6% 1% 8%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.box4 > .inner > span{
+    margin: 12px; 
+    padding: 18px;
+    font-size: 16px; 
+    border: 1px solid rgb(222, 220, 220);
+    border-radius:10px;
+    box-shadow: 0.2px 0.2px 1.6px 0.1px;
+    color: rgb(33, 32, 32);
+}
+.box4 > .inner > #ShowMore{
+    padding: 1px;
+    width: 223px;
+    color: orangered;
+    
+    font-weight: bold;
+}
+.box4  > .inner > span:hover {
+    cursor: pointer; 
+    position: sticky;
+} 
+.box5{
+    height: 100px; 
+    margin: 1% 8% -1.0% 8.5%; 
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-width: 2px;
+}
+
+.box5 > span{
+    
+    padding: 18px;
+    font-size: 16px; 
+    border: 1px solid rgb(222, 220, 220);
+    border-radius:10px;
+    box-shadow: 0.2px 0.2px 1.6px 0.1px;
+    color: rgb(33, 32, 32);
+}
+.box5 > span:hover{
+    cursor: pointer;
+}
+.box5 > .explore{
+    margin-left: 74px;
+    margin-right: 12px;
+}
+.container{ 
+    height: 630px;
+    background-color: rgb(241, 242, 242); 
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.box6{ 
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box6  >.content{  
+    font-size: 22px;
+    color: rgb(57, 57, 57);
+    margin: 20px; 
+    font-weight: bold;
+    margin-top:3em;
+}
+.box6 span >img{
+    width:196px;
+    height: 65px;  
+    margin-right: 20px;
+    margin-top:3em;
+}
+.box7{ 
+    margin-left: 222px;
+    margin-top: 60px;
+    width: 1043px;
+    display: flex;
+    justify-content: space-evenly
+} 
+.f1 span{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f1 #upper{ 
+    margin-top: 1px;   
+}
+.f1 #upper > img{ 
+    border-radius: 14px;
+}
+.f1 #lower{
+    color: rgb(81, 79, 79);
+}
+.f1 span > strong{
+    margin-top: 5px;
+    font-size: 29px; 
+    color: orangered;
+}
+#lead{
+    font-size: 18px;
+    color: black !important;
+}
+.box7 p {
+    color: rgb(64, 62, 62);
+}  
+.box7 p:hover{
+    cursor: pointer;
+}
+.box7 > .f5 > .images >a img{
+    border-radius: 10px;
+    margin:1px 4px 0px 4px;  
+}
